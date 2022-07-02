@@ -1,0 +1,33 @@
+extends ./layout/index
+
+
+block contenido
+  main.container.mt-5 
+    .row
+        .col-md-5 
+          img(src="img/nosotros.jpg", alt="sobre nosotros", class="img-fluid")
+
+        .col-md-7
+          h1 #{pagina}
+
+          Blockquote Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam est nulla, hendrerit vitae condimentum at, auctor ac nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc tincidunt, tortor id condimentum congue, arcu elit sodales risus, eu molestie arcu sapien non sem. Nullam non magna auctor, congue enim ut, finibus enim. Mauris vel elit tellus. Mauris et quam maximus.
+          p Proin sed sem porttitor, lacinia lacus quis, congue nisi. Sed accumsan pharetra tempor. In non ligula lacus. Proin rutrum elit id ex efficitur dignissim id tempus dolor. Quisque vestibulum nunc dolor, nec hendrerit sem pretium sagittis. Nullam vitae leo vestibulum, iaculis elit non, malesuada erat. Duis mollis magna ac vulputate consectetur. Morbi pellentesque consectetur ante tristique vestibulum. Morbi vel auctor neque. Nam lobortis accumsan erat, nec pellentesque enim lobortis eu. Pellentesque viverra mi sed rutrum dictum. Nullam convallis ut dolor vitae convallis. Vestibulum elementum lacus in nisi condimentum, eget tempus odio laoreet. Vestibulum eu justo diam.
+          p Proin venenatis risus a risus rhoncus, eu pretium tellus molestie. Donec faucibus, purus nec pretium volutpat, leo enim efficitur mi, et lobortis odio odio sit amet ligula. Integer sed libero dui. Proin at malesuada nibh. Sed sed porta mi. Donec iaculis quam eu ipsum imperdiet tincidunt eu in metus. Aenean in augue eleifend, commodo ipsum nec, ullamcorper felis. In et massa sollicitudin, cursus ante eget, malesuada erat. Vivamus ut elit elit. Phasellus condimentum lacinia ante, elementum varius metus facilisis in. 
+
+  .listado-iconos  
+      .container.mt-5.py-5.text-center 
+         .row  
+            .col-md-4
+              img(src="img/icono_seguridad.svg", alt="icono seguridad", class="img-fluid mb-4")
+              h2.mb-4 Seguridad
+              p Proin venenatis risus a risus rhoncus, eu pretium tellus molestie.
+
+            .col-md-4
+              img(src="img/icono_destinos.svg", alt="icono destinos", class="img-fluid mb-4")
+              h2.mb-4 Mejores Destinos
+              p Proin venenatis risus a risus rhoncus, eu pretium tellus molestie.
+
+            .col-md-4
+              img(src="img/icono_precios.svg", alt="icono precios", class="img-fluid mb-4")
+              h2.mb-4 Los Mejores Precios
+              p Proin venenatis risus a risus rhoncus, eu pretium tellus molestie.
